@@ -34,7 +34,7 @@ dict2 = {
 
 json_obj = json.dumps(dict2, indent = 4)
 
-a = 2
+a = [1,2,3,4]
 
 with open('dict.json', 'w') as outfile:
     outfile.write(json_obj)
