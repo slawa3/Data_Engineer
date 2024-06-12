@@ -39,3 +39,4 @@ a = [1,2,3,4]
 with open('dict.json', 'w') as outfile:
     outfile.write(json_obj)
 
+b = [1,2,3,4]
